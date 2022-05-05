@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #e9f5db;
+}
+
+nav {
+    background-color:  #718355;
+    padding: 0.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.4em;
+    margin: 0;
+    color: black;
+}
+nav ul li {
+    display: inline;
+}
+
+.header {
+    background-color: #b5c99a;
+    color: black;
+    padding: 0.2em;
+}
+body {
+    min-height: 100vh;
+}
+footer {
+    position: absolute;
+    top: 100%;
+    background-color: #e9f5db;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 2em;
+    border-top: solid lightgrey
+}
+.content_kontakt {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    margin: 10em;
+}
+.content_kontakt form {
+    background-color: #b5c99a;
+    position: absolute;
+    border-style: solid;
+    border-radius: 4px;
+    width: 100%;
+    height: 105%;
+}
+.inputRubrik {
+    width: 80%;
+    border-radius: 4px;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}
+.inputBeskrivning {
+    width: 80%;
+    resize: none;
+    height: 5em;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}
+.radioButton {
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}
+.selectOptions {
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}
+button {
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}

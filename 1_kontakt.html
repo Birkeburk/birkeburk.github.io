@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="1_stylekontakt.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Slottskogen</h1>
+      <h5>Göteborgarnas park, även för andra!</h5>
+    </header>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="1_index.html">Hem</a></li>
+        <li><a href="1_kontakt.html" target="_self">Kontakt</a></li>
+        <li>
+          <a
+            href="https://www.klart.se/se/västra-götalands-län/väder-göteborg/"
+            target="_blank"
+            >Väder</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main class="content_kontakt">
+      <form action="">
+        <header>
+          <h2>Lämna dina synpunkter här!</h2>
+        </header>
+        <br />
+        <label for="Rubrik">Rubrik</label>
+        <br />
+        <input
+          class="inputRubrik"
+          placeholder="Rubrik"
+          id="Rubrik"
+          type="Rubrik"
+          required
+        />
+        <br />
+        <br />
+        <label for="Beskrivning">Beskrivning</label>
+        <br />
+        <textarea
+          class="inputBeskrivning"
+          maxlength="100"
+          placeholder="Synpunkt"
+          id="Beskrivning"
+          type="Beskrivning"
+          size="40"
+          required
+        ></textarea>
+        <br />
+        <br />
+        <label for="Ärende">Ärende</label>
+        <br />
+        <select class="selectOptions" name="Ärende" id="Ärende">
+          <option value="Barnens_Zoo">Barnens Zoo</option>
+          <option value="VillaBelparc">Villa Belparc</option>
+        </select>
+        <br />
+        <br />
+
+        <p>Vill du ha en återkoppling på din synpunkt?</p>
+        <label for="Ja"> Ja</label>
+        <input id="Ja" type="radio" name="svar" />
+
+        <label for="Nej"> Nej</label>
+        <input id="Nej" type="radio" name="svar" />
+        <br /><br />
+        <button type="submit">Skicka</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>
+        Vill du veta mer? Skicka e-post till
+        <a
+          href="mailto:slottskogen@gmail.com?subject=Vill veta mer!"
+          target="_blank"
+          >slottskogen@gmail.com</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
