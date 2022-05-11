@@ -3,31 +3,30 @@
     padding: 0;
 }
 .header {
-    border-style: solid;
-    border-radius: 10px;
+    position: relative;
+    border-top: solid;
+    border-bottom: solid;
     border-width: 3px;
     border-color: blue;
-    margin: 5em;
+    margin-top: 5em;
     font-family: "Press Start 2P";
     color: Blue;
-    width: 82%;
+    width: 100%;
     padding: 1em;
     justify-content: center;
     align-items: center;
 }
 body {
-    position: absolute;
-    vertical-align: middle;
-    display: inline-block;
     background-color: black;
+    width: 100%;
 }
 .calculator {
     float: left;
     margin-top: 10%;
     margin-left: 10%;
     position: relative;
-    width: 25%;
-    background-color: blackpink;
+    width: 20%;
+    background-color: black;
     border-style: solid;
     border-color: blue;
     border-width: 3px;
@@ -35,18 +34,16 @@ body {
     height: 350px;
 }
 .display {
-    padding: 0.2em;
-    margin-top: 1em;
-    margin-left: 7.5%;
-    margin-bottom: 10%;
-    display: inline-block;
+    overflow: hidden;
+    padding: 1.5em 0 1.5em 0;
+
+    margin: 1em;
+    display: block;
     border-radius: 10px;
     background-color: aliceblue;
-    text-align: right;
     font-family: "Press Start 2P";
-    font-size: 15px;
-    width: 80%;
-    height: 10%;
+    height: 1em;
+    text-align: right;
 }
 .buttons {
     font-family: "Press Start 2P";
@@ -55,7 +52,7 @@ body {
     border-radius: 10px;
     border-color: blue;
     border-width: 3px;
-    margin-left: 5%;
+    margin-left: 5.5%;
     margin-bottom: 3%;
     width: 17%;
     height: 15%;
@@ -64,7 +61,7 @@ body {
 }
 .results {
     position: relative;
-    float: left;
+    display: inline-block;
     border-style: solid;
     border-color: blue;
     border-width: 3px;
@@ -81,12 +78,12 @@ body {
     margin: 1em;
 }
 li {
-    display: inline-block;
     list-style-type: none;
     margin: 1em;
     color: blue;
 }
 .resultButtons {
+
     color: blue;
     background-color: black;
     border-style: solid;
@@ -95,4 +92,36 @@ li {
     padding: 0.5em;
     margin: 0.3em;
 
+}
+.buttons:hover, .resultButtons:hover {
+    background-color: blue;
+    color: black;
+}
+.resultsList {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+}
+.resultsList {
+
+    overflow: scroll;
+    scrollbar-width: thin;
+}
+.resultsList::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+}
+
+.resultsList::-webkit-scrollbar-track {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.resultsList::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 10px;
+
+}
+.resultsList::-webkit-scrollbar-corner {
+    background-color: black;
 }
