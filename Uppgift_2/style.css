@@ -1,127 +1,124 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .header {
-    position: relative;
-    border-top: solid;
-    border-bottom: solid;
-    border-width: 3px;
-    border-color: blue;
-    margin-top: 5em;
-    font-family: "Press Start 2P";
-    color: Blue;
-    width: 100%;
-    padding: 1em;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: blue;
+  margin-top: 5em;
+  font-family: "Press Start 2P";
+  color: Blue;
+  width: 100%;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
 }
 body {
-    background-color: black;
-    width: 100%;
+  background-color: black;
+  width: 100%;
 }
 .calculator {
-    float: left;
-    margin-top: 10%;
-    margin-left: 10%;
-    position: relative;
-    width: 20%;
-    background-color: black;
-    border-style: solid;
-    border-color: blue;
-    border-width: 3px;
-    border-radius: 10px;
-    height: 350px;
+  float: left;
+  margin-top: 10%;
+  margin-left: 10%;
+  position: relative;
+  width: 20%;
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  border-width: 3px;
+  border-radius: 10px;
+  height: 350px;
 }
 .display {
-    overflow: hidden;
-    padding: 1.5em 0 1.5em 0;
+  overflow: hidden;
+  padding: 1.5em 0 1.5em 0;
 
-    margin: 1em;
-    display: block;
-    border-radius: 10px;
-    background-color: aliceblue;
-    font-family: "Press Start 2P";
-    height: 1em;
-    text-align: right;
+  margin: 1em;
+  display: block;
+  border-radius: 10px;
+  background-color: aliceblue;
+  font-family: "Press Start 2P";
+  height: 1em;
+  text-align: right;
 }
 .buttons {
-    font-family: "Press Start 2P";
-    color: blue;
-    background-color: black;
-    border-radius: 10px;
-    border-color: blue;
-    border-width: 3px;
-    margin-left: 5.5%;
-    margin-bottom: 3%;
-    width: 17%;
-    height: 15%;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
+  font-family: "Press Start 2P";
+  color: blue;
+  background-color: black;
+  border-radius: 10px;
+  border-color: blue;
+  border-width: 3px;
+  margin-left: 5.5%;
+  margin-bottom: 3%;
+  width: 17%;
+  height: 15%;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 .results {
-    position: relative;
-    display: inline-block;
-    border-style: solid;
-    border-color: blue;
-    border-width: 3px;
-    background-color: black;
-    margin-top: 10%;
-    margin-left: 10%;
-    width: 50%;
-    height: 350px;
-    border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  border-style: solid;
+  border-color: blue;
+  border-width: 3px;
+  background-color: black;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 50%;
+  height: 350px;
+  border-radius: 10px;
 }
 .resultsHeader {
-    font-family: "Press Start 2P";
-    color: blue;
-    margin: 1em;
+  font-family: "Press Start 2P";
+  color: blue;
+  margin: 1em;
 }
 li {
-    list-style-type: none;
-    margin: 1em;
-    color: blue;
+  list-style-type: none;
+  margin: 1em;
+  color: blue;
 }
 .resultButtons {
-
-    color: blue;
-    background-color: black;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: blue;
-    padding: 0.5em;
-    margin: 0.3em;
-
+  color: blue;
+  background-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: blue;
+  padding: 0.5em;
+  margin: 0.3em;
 }
-.buttons:hover, .resultButtons:hover {
-    background-color: blue;
-    color: black;
-}
-.resultsList {
-    position: absolute;
-    height: 70%;
-    width: 100%;
+.buttons:hover,
+.resultButtons:hover {
+  background-color: blue;
+  color: black;
 }
 .resultsList {
-
-    overflow: scroll;
-    scrollbar-width: thin;
+  position: absolute;
+  height: 70%;
+  width: 100%;
+}
+.resultsList {
+  overflow: scroll;
+  scrollbar-width: thin;
 }
 .resultsList::-webkit-scrollbar {
-    width: 10px;
-    background-color: black;
+  width: 10px;
+  background-color: black;
 }
 
 .resultsList::-webkit-scrollbar-track {
-    background-color: black;
-    border-radius: 10px;
+  background-color: black;
+  border-radius: 10px;
 }
 
 .resultsList::-webkit-scrollbar-thumb {
-    background-color: blue;
-    border-radius: 10px;
-
+  background-color: blue;
+  border-radius: 10px;
 }
 .resultsList::-webkit-scrollbar-corner {
-    background-color: black;
+  background-color: black;
 }
